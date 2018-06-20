@@ -2,26 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>clevOps/lucaskiewek</title>
-    <link rel="stylesheet" type="text/css" href="clevOps_style.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
-    <div class="navBar">
-      <ul>
-        <li id="title">Lucas Kiewek</li>
-        <li><a href="#welcome">Home</a></li>
-        <li><a>about</a></li>
-        <li><a href="https://github.com/LucasKiewek">GitHub</a></li>
-        <li><a>Contact</a></li>
-      </ul>
+    <div class="nav">
+      <li id="top-left">
+        <div id="title">Lucas Kiewek</div>
+        <div id="eye">
+            <img id="pupil" src="eye.jpg" alt="Lucas Kiewek">
+            <script src="eye.js"></script>
+        </div>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://github.com/LucasKiewek">GitHub</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">About</a>
+        <div class="dropdown-content">
+          <a href="#coding">Coding</a>
+          <a href="#goals">Goals</a>
+          <a href="#hobbies">Hobbies</a>
+          <a href="#feats">Feats</a>
+        </div>
+      </li>
+      <li><a href="#home">Home</a></li>
     </div>
+    <div class="content">
+      <h3 id="home">Welcome:</h3>
+      <p>Hey, welcome to <strong>Lucas'</strong> (aka magicburrito) section of <a id="clevOpsLink"href="http://clevops.com">clevOps</a>. In this website you will find a few things, this welcoming paragraph, some stuff about myself, my GitHub, and a way to contact me. The about section talks a little bit about my background in coding and my goals for the future. The GitHub section links you to my GitHub and talks about some of the things I have done there. Finally, the contact section gives you a way to contact me. Prepare to get snazzy...</p>
 
-    <div class="container1">
-      <div id="middle">
-        <p id="welcome">Hey, welcome to <strong>Lucas'</strong> (aka magicburrito) section of <a href="http://clevops.com">clevOps</a>. Prepare to get snazzy...</p>
+      <h3 id="about">About:</h3>
+      <h4 id="coding">Coding</h4>
+      <p>I started coding when I was twelve and became proficient in scratch, but I quickly moved on to my first real programming language, JavaScript. During this time I also learned html and css. I stopped coding for a little while but picked it back up in the summer of 2016 when I learned my main language Python. I later brushed up on html and css and also spent some time learning swift. Finally, I made a <a href="https://github.com/LucasKiewek">GitHub</a> account and took a computer science course in the ninth grade. Today, I can confidently code in swift, Python2 and Python3, html, and css.</p>
+
+      <h4 id="goals">Goals</h4>
+      <p>I want to be a project leader at <a href="https://www.tesla.com">Tesla Motors</a>. I love cars and the tesla is arguably the best one, working for a company with a forward thinking goal and an unmatchable product would be an amazing experience. They are consistantly able to surpass expectations and deliver inovative and powerful cars to the world.</p>
+
+      <h4 id="hobbies">Other Hobbies</h4>
+      <p>I have been doing flips since I was four and have now progressed further than I had ever imagined. I also enjoy traveling to other countries and observing their culture. I also enjoy watching <a href="http://www.piedpiper.com">Silicon Valley</a> and Tv shows of that ilk. One of my other, more implicit hobbies is learning things by watching educational <a href="https://www.youtube.com">videos</a> or documentaries. I don't know why I enjoy this so much but I learn a lot and have fun while doing so.</p>
+
+      <h4 id="feats">Feats</h4>
+      <p>I entered the 2016 breakthrough junior challenge:</p>
+
+      <div class="videoWrap">
+        <iframe id="btjcVideo"
+          src="https://www.youtube.com/embed/8evRXscURLs?controls=0">
+        </iframe>
       </div>
-      <p id="github_link"><a href="https://github.com/LucasKiewek">Check out my GitHub!</a></p>
+
+    </div>
+    <div class="bottom">
+      <h3  id="contact">Contact Me:</h3>
+      <a id="email" href="https://mail.google.com">lucaskiewekcode@gmail.com</a>
     </div>
 
+    <!--<button id="im" type="button" name="insane mode">insane mode</button>-->
+    <!--
+    <video class="insane" autoplay loop >
+      <source src="Smoke.mp4" type="video/mp4" />
+    </video>
+    <video class="insane" autoplay loop>
+      <source src="3rd Place International Award Winning Laser Show - Arrived In Flames (2014 ILDA Artistic Award).mp4" type="video/mp4" />
+    </video>
+  -->
   </body>
 </html>
