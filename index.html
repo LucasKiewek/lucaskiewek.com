@@ -1,71 +1,609 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lucas</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div class="nav">
-      <li id="top-left">
-        <div id="title">Lucas Kiewek</div>
-        <div id="eye">
-            <img id="pupil" src="eye.jpg" alt="Lucas Kiewek">
-            <script src="eye.js"></script>
-        </div>
-      </li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="https://github.com/LucasKiewek">GitHub</a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">About</a>
-        <div class="dropdown-content">
-          <a href="#coding">Coding</a>
-          <a href="#goals">Goals</a>
-          <a href="#hobbies">Hobbies</a>
-          <a href="#feats">Feats</a>
-        </div>
-      </li>
-      <li><a href="#home">Home</a></li>
-    </div>
-    <div class="content">
-      <h3 id="home">Welcome:</h3>
-      <p>Hey, welcome to <strong>Lucas'</strong> (aka magicburrito) section of <a id="clevOpsLink"href="http://clevops.com">clevOps</a>. In this website you will find a few things, this welcoming paragraph, some stuff about myself, my GitHub, and a way to contact me. The about section talks a little bit about my background in coding and my goals for the future. The GitHub section links you to my GitHub and talks about some of the things I have done there. Finally, the contact section gives you a way to contact me. Prepare to get snazzy...</p>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Lucas Kiewek</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="I'm Mexican not Mexican't" />
+		<meta name="author" content="Lucas Kiewek" />
+		<meta property="og:title" content="Lucas Kiewek"/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content="http://lucaskiewek.com"/>
+		<meta property="og:site_name" content="Lucas Kiewek"/>
+		<meta property="og:description" content="I'm Mexican not Mexican't"/>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<div id="colorlib-page"> <!-- navbar -->
+			<div class="container-wrap">
+				<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+				<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+					<div class="text-center">
+						<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+						<h1 id="colorlib-logo"><a href="index.html">Lucas Kiewek</a></h1>
+						<span class="position">undoubtebly Mexican</span>
+					</div>
+					<nav id="colorlib-main-menu" role="navigation" class="navbar">
+						<div id="navbar" class="collapse">
+							<ul>
+								<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+								<li><a href="#" data-nav-section="about">About</a></li>
+								<li><a href="#" data-nav-section="services">Services</a></li>
+								<li><a href="#" data-nav-section="skills">Skills</a></li>
+								<li><a href="#" data-nav-section="education">Education</a></li>
+								<li><a href="#" data-nav-section="experience">Experience</a></li>
+								<li><a href="#" data-nav-section="work">Work</a></li>
+								<li><a href="#" data-nav-section="contact">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+				</aside>
 
-      <h3 id="about">About:</h3>
-      <h4 id="coding">Coding</h4>
-      <p>I started coding when I was twelve and became proficient in scratch, but I quickly moved on to my first real programming language, JavaScript. During this time I also learned html and css. I stopped coding for a little while but picked it back up in the summer of 2016 when I learned my main language Python. I later brushed up on html and css and also spent some time learning swift. Finally, I made a <a href="https://github.com/LucasKiewek">GitHub</a> account and took a computer science course in the ninth grade. Today, I can confidently code in swift, Python2 and Python3, html, and css.</p>
+				<div id="colorlib-main"> <!--carousel of images (add images)-->
+					<section id="colorlib-hero" class="js-fullheight" data-section="home">
+						<div class="flexslider js-fullheight">
+							<ul class="slides">
+						   	<li style="background-image: url(images/img_bg_1.jpg);">
+						   		<div class="overlay"></div>
+						   		<div class="container-fluid">
+						   			<div class="row">
+							   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+							   				<div class="slider-text-inner js-fullheight">
+							   					<div class="desc">
+								   					<h1>Hi! <br>I'm Lucas</h1>
+								   					<h2>I hope you enjoy my website.</h2>
+													</div>
+							   				</div>
+							   			</div>
+							   		</div>
+						   		</div>
+						   	</li>
+						   	<li style="background-image: url(images/img_bg_2.jpg);">
+						   		<div class="overlay"></div>
+						   		<div class="container-fluid">
+						   			<div class="row">
+							   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+							   				<div class="slider-text-inner">
+							   					<div class="desc">
+								   					<h1>I am <br>a Coder</h1>
+														<h2>Scratch expert, oh and real languages too.</h2>
+													</div>
+							   				</div>
+							   			</div>
+							   		</div>
+						   		</div>
+						   	</li>
+								<li style="background-image: url(images/img_bg_2.jpg);">
+						   		<div class="overlay"></div>
+						   		<div class="container-fluid">
+						   			<div class="row">
+							   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+							   				<div class="slider-text-inner">
+							   					<div class="desc">
+								   					<h1>I am <br>an App Developer</h1>
+														<h2>Two apps in the works</h2>
+													</div>
+							   				</div>
+							   			</div>
+							   		</div>
+						   		</div>
+						   	</li>
+								<li style="background-image: url(images/img_bg_1.jpg);">
+						   		<div class="overlay"></div>
+						   		<div class="container-fluid">
+						   			<div class="row">
+							   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+							   				<div class="slider-text-inner js-fullheight">
+							   					<div class="desc">
+								   					<h1>I am <br>a World Traveler</h1>
+								   					<h2>From Mexico City to Shanghai.</h2>
+													</div>
+							   				</div>
+							   			</div>
+							   		</div>
+						   		</div>
+						   	</li>
+								<li style="background-image: url(images/img_bg_2.jpg);">
+						   		<div class="overlay"></div>
+						   		<div class="container-fluid">
+						   			<div class="row">
+							   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+							   				<div class="slider-text-inner">
+							   					<div class="desc">
+								   					<h1>I am <br>a Mexican</h1>
+														<h2>Viva!</h2>
+													</div>
+							   				</div>
+							   			</div>
+							   		</div>
+						   		</div>
+						   	</li>
+						  	</ul>
+					  	</div>
+					</section>
 
-      <h4 id="goals">Goals</h4>
-      <p>I want to be a project leader at <a href="https://www.tesla.com">Tesla Motors</a>. I love cars and the tesla is arguably the best one, working for a company with a forward thinking goal and an unmatchable product would be an amazing experience. They are consistantly able to surpass expectations and deliver inovative and powerful cars to the world.</p>
+					<section class="colorlib-about" data-section="about"> <!--about section-->
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+										<div class="col-md-12">
+											<div class="about-desc">
+												<span class="heading-meta">About</span>
+												<h2 class="colorlib-heading">Who Am I?</h2>
+												<p><strong>Hi I'm Lucas Kiewek.</strong> I am a high school student with a love for computers, mathemeatics, and electric vehicles. I am very interested in artificial intelligence, specifically when it applies to self-driving vehicles and even more specifically what decision a vehicle will make when faced with a certain situation. My plan for entering this field is to gain a deep understanding of statistics and probability and to be proficient in algebra and calculus. At the moment I am in search of an intership and I can offer the ability to speak spanish at a native level, 3 years of programming experience, and a mindset for learning.</p>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+											<div class="services color-4">
+												<span class="icon2"><i class="icon-phone3"></i></span>
+												<h3>Code</h3>
+											</div>
+										</div>
+										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+											<div class="services color-3">
+												<span class="icon2"><i class="icon-data"></i></span>
+												<h3>Math</h3>
+											</div>
+										</div>
+										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+											<div class="services color-2">
+												<span class="icon2"><i class="icon-globe-outline"></i></span>
+												<h3>EVs</h3>
+											</div>
+										</div>
+										<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+											<div class="services color-1">
+												<span class="icon2"><i class="icon-bulb"></i></span>
+												<h3>Mexican</h3>
+											</div>
+										</div>
+									</div>
+									<!-- <div class="row">
+										<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+											<div class="hire">
+												<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+												<a href="#" class="btn-hire">Hire me</a>
+											</div>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</section>
 
-      <h4 id="hobbies">Other Hobbies</h4>
-      <p>I have been doing flips since I was four and have now progressed further than I had ever imagined. I also enjoy traveling to other countries and observing their culture. I also enjoy watching <a href="http://www.piedpiper.com">Silicon Valley</a> and Tv shows of that ilk. One of my other, more implicit hobbies is learning things by watching educational <a href="https://www.youtube.com">videos</a> or documentaries. I don't know why I enjoy this so much but I learn a lot and have fun while doing so.</p>
+					<!--counter-->
+					<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+						<div class="overlay"></div>
+						<div class="colorlib-narrow-content">
+							<div class="row">
+							</div>
+							<div class="row">
+								<div class="col-md-3 text-center animate-box">
+									<span class="colorlib-counter js-counter" data-from="0" data-to="15" data-speed="5000" data-refresh-interval="50"></span>
+									<span class="colorlib-counter-label">age</span>
+								</div>
+								<div class="col-md-3 text-center animate-box">
+									<span class="colorlib-counter js-counter" data-from="0" data-to="5" data-speed="5000" data-refresh-interval="50"></span>
+									<span class="colorlib-counter-label">Languages</span>
+								</div>
+								<div class="col-md-3 text-center animate-box">
+									<span class="colorlib-counter js-counter" data-from="0" data-to="2" data-speed="5000" data-refresh-interval="50"></span>
+									<span class="colorlib-counter-label">Jobs</span>
+								</div>
+								<div class="col-md-3 text-center animate-box">
+									<span class="colorlib-counter js-counter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50"></span>
+									<span class="colorlib-counter-label">enthusiasm out of 100</span>
+								</div>
+							</div>
+						</div>
+					</div>
 
-      <h4 id="feats">Feats</h4>
-      <p>I entered the 2016 breakthrough junior challenge:</p>
+					<section class="colorlib-services" data-section="services">	<!--areas of expertise-->
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+									<span class="heading-meta">What I do?</span>
+									<h2 class="colorlib-heading">Here are some of my areas of expertise</h2>
+								</div>
+							</div>
+							<div class="row row-pt-md">
+								<div class="col-md-4 text-center animate-box">
+									<div class="services color-1">
+										<span class="icon">
+											<i class="icon-bulb"></i>
+										</span>
+										<div class="desc">
+											<h3>Innovative Ideas</h3>
+											<p>Creative solutions to difficult problems</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 text-center animate-box">
+									<div class="services color-2">
+										<span class="icon">
+											<i class="icon-data"></i>
+										</span>
+										<div class="desc">
+											<h3>Software</h3>
+											<p>A much needed coder at your service</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 text-center animate-box">
+									<div class="services color-3">
+										<span class="icon">
+											<i class="icon-phone3"></i>
+										</span>
+										<div class="desc">
+											<h3>Apps</h3>
+											<p>the Xcode and swift experience of a high schooler</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 text-center animate-box">
+									<div class="services color-4">
+										<span class="icon">
+											<i class="icon-layers2"></i>
+										</span>
+										<div class="desc">
+											<h3>Graphic Design</h3>
+											<p>long-time photoshop user and a young mind</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 text-center animate-box">
+									<div class="services color-5">
+										<span class="icon">
+											<i class="icon-data"></i>
+										</span>
+										<div class="desc">
+											<h3>Bilingual</h3>
+											<p>A native spanish speaker and an agile english speaker</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 text-center animate-box">
+									<div class="services color-6">
+										<span class="icon">
+											<i class="icon-phone3"></i>
+										</span>
+										<div class="desc">
+											<h3>Open Mind</h3>
+											<p>A true and eager love for the perpsuit of knowledge</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 
-      <div class="videoWrap">
-        <iframe id="btjcVideo"
-          src="https://www.youtube.com/embed/8evRXscURLs?controls=0">
-        </iframe>
-      </div>
+					<section class="colorlib-skills" data-section="skills"> <!--my skills-->
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+									<span class="heading-meta">My Specialty</span>
+									<h2 class="colorlib-heading animate-box">My Skills</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<p></p>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Python</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="progress-wrap">
+										<h3>Xcode</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:35%">
+										    <span>35%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Photoshop</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+										    <span>50%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="progress-wrap">
+										<h3>JavaScript</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+										    <span>60%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Swift</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
+										    <span>65%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="progress-wrap">
+										<h3>Electric Vehicles</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+										    <span>50%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 
-    </div>
-    <div class="bottom">
-      <h3  id="contact">Contact Me:</h3>
-      <a id="email" href="https://mail.google.com">lucaskiewekcode@gmail.com</a>
-    </div>
+					<section class="colorlib-education" data-section="education"> <!--my education-->
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+									<span class="heading-meta">Education</span>
+									<h2 class="colorlib-heading animate-box">Education</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="fancy-collapse-panel">
+										<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+											<div class="panel panel-default">
+											    <div class="panel-heading" role="tab" id="headingOne">
+											        <h4 class="panel-title">
+											            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Germantown Friends School</a>
+											        </h4>
+											    </div>
+											    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											         <div class="panel-body">
+												      			<p>I am currently a Germantown Friends School high school student.</p>
+												      	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+											    <div class="panel-heading" role="tab" id="headingThree">
+											        <h4 class="panel-title">
+											            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">khan academy</a>
+											        </h4>
+											    </div>
+											    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											        <div class="panel-body">
+											            <p>I learned my first programing language, <strong>JavaScript</strong>, on Khan Academy before the eight grade and taught myself <strong>Python</strong> and <strong>Swift</strong> the following year.</p>
+											        </div>
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 
-    <!--<button id="im" type="button" name="insane mode">insane mode</button>-->
-    <!--
-    <video class="insane" autoplay loop >
-      <source src="Smoke.mp4" type="video/mp4" />
-    </video>
-    <video class="insane" autoplay loop>
-      <source src="3rd Place International Award Winning Laser Show - Arrived In Flames (2014 ILDA Artistic Award).mp4" type="video/mp4" />
-    </video>
-  -->
-  </body>
+					<section class="colorlib-experience" data-section="experience"> <!-- my experience -->
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+									<span class="heading-meta">Experience</span>
+									<h2 class="colorlib-heading animate-box">My Experiences</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+						         <div class="timeline-centered">
+							         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+							            <div class="timeline-entry-inner">
+
+							               <div class="timeline-icon color-1">
+							                  <i class="icon-pen2"></i>
+							               </div>
+
+							               <div class="timeline-label">
+							                  <h2><a href="#">Assistant teacher at GFS robotics club</a> <span>2017-NOW</span></h2><!--add gfs link-->
+							                  <p>I worked as the assistant teacher at the Germantown Friends School after school robotics club for one school year. The job required me to assist the 6th to 7th grade students to learn about the fundemental aspects of computer programming and robotics every Wednesday for 45 minutes.</p>
+							               </div>
+							            </div>
+							         </article>
+
+											 <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+							            <div class="timeline-entry-inner">
+
+							               <div class="timeline-icon color-2">
+							                  <i class="icon-pen2"></i>
+							               </div>
+
+							               <div class="timeline-label">
+							                  <h2><a href="#">Counselor at GFS computer summer camp</a> <span>2018</span></h2><!--add gfs link-->
+							                  <p>I worked at the summer camp from 9:00am till 3:00pm for two weeks(tbd). The work required me to help 6th to 7th grade students with any robotics barriers they experienced from 9:00am until 12:00pm and help them with scratch obstacles between the hours of 1:00pm and 3:00pm.</p>
+							               </div>
+							            </div>
+							         </article>
+
+							         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+							            <div class="timeline-entry-inner">
+							               <div class="timeline-icon color-none">
+							               </div>
+							            </div>
+							         </article>
+							      </div>
+							   </div>
+						   </div>
+						</div>
+					</section>
+
+					<section class="colorlib-work" data-section="work"> <!--my work-->
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+									<span class="heading-meta">My Work</span>
+									<h2 class="colorlib-heading animate-box">Recent Work</h2>
+								</div>
+							</div>
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<p class="work-menu"> <span>Applications</span> <span>Software</span></p>
+								</div>
+							</div>
+							<div class="row">
+								<div id="TrickingProgressions" class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="project" style="background-image: url(images/img-1.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a href="work.html">Tricking Progressions</a></h3>
+												<span>Application</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="project" style="background-image: url(images/img-2.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a href="work.html">Tricking Translator</a></h3>
+												<span>Application</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="Python" class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="project" style="background-image: url(images/img-3.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a href="https://github.com/LucasKiewek/PythonArcade">Arcade Game</a></h3>
+												<span>Software</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="project" style="background-image: url(images/img-4.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a href="https://github.com/LucasKiewek/Files-With-Python">Top Ten List</a></h3>
+												<span>Software</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- <div class="row">
+								<div class="col-md-12 animate-box">
+									<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+								</div>
+							</div> -->
+						</div>
+					</section>
+
+					<section class="colorlib-contact" data-section="contact">
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+									<span class="heading-meta">Get in Touch</span>
+									<h2 class="colorlib-heading">Contact</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-5">
+									<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+										<div class="colorlib-icon">
+											<i class="icon-globe-outline"></i>
+										</div>
+										<div class="colorlib-text">
+											<p><a href="http://www.gmail.com">lucaskiewekcode@gmail.com</a></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+										<div class="colorlib-icon">
+											<i class="icon-data"></i>
+										</div>
+										<div class="colorlib-text">
+											<p><a href="https://github.com/LucasKiewek">Github</a></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div><!-- end:colorlib-main -->
+			</div><!-- end:container-wrap -->
+		</div><!-- end:colorlib-page -->
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Flexslider -->
+		<script src="js/jquery.flexslider-min.js"></script>
+		<!-- Owl carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Counters -->
+		<script src="js/jquery.countTo.js"></script>
+
+
+		<!-- MAIN JS -->
+		<script src="js/main.js"></script>
+	</body>
 </html>
