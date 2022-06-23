@@ -754,11 +754,20 @@ section {
 }
 .services .icon-box h4 {
   font-weight: 600;
+  color: #595959;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
+
+.services .icon-box:hover h4 {
+  font-weight: 600;
+  color: black;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
 .services .icon-box h4 a {
-  color: #45505b;
+  color: #000000;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
